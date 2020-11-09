@@ -1,0 +1,138 @@
+/* Common rules */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header-div {
+  background-image: url(../images/header_bg.png);
+
+ 
+  height: 100vh;
+
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Navbar */
+.navbar-mod li a{
+  font-size: 20px;
+  color: #fff !important;
+  padding: 50px !important;
+
+}
+
+
+
+
+
+
+.demo-nav{
+  color: #fff;
+  font-size: 20px;
+}
+.demo-nav:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/* Navbar ends */
+
+
+.header-heading {
+}
+
+
+.algoqa-round-img{
+  width: 230px;
+  height: auto;
+}
+
+.header-content{
+  padding-left: 50px;
+}
+.header-content-main-div{
+  position: relative;
+  top: 29%;
+}
+
+
+.header-btn-yellow img{
+  height: 85px;
+}
+.header-btn-blue img{
+  height: 85px;
+}
+/* Header ends*/
+
+.optimize *,
+.shorter *,
+.rapid * {
+  text-align: center;
+}
+
+.optimize img, .shorter img, .rapid img{
+  display: block;
+    margin: 0 auto;
+
+}
+
+.optimize-p-1, .shorter-p-1, .rapid-p-1{
+  font-weight: 700;
+}
+
+.reimagine-main-div{
+  background-color: #059bd7;
+
+}
+.reimagine-flow-img {
+  width: 516px;
+
+}
+.reimagine-text-div{
+  padding: 50px;
+}
+
+
+.algoqa-works-image{
+  width: 350px;
+}
+
+
+.algoqa-works-main-div{
+  background-color: #F2FAFF;
+}
+
+.algoqa-works-text-div{
+  padding: 50px;
+}
+
+.test-authoring-main-div{
+  padding: 50px;
+}
+
+/* Card heading background color */
+.card-bg-blue{
+  background-color: #059BD7;
+}
+
+
+.algoqa-offer-main-div{
+  background: url(../images/algoqa_offer.png);
+}
+
+/* Card gradient black */
+.card-bg-gradient{
+  background: linear-gradient(to right,#004A63,#081D36);
+}
