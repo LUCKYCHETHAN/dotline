@@ -1,51 +1,46 @@
 /* Common rules */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-
 .row {
-  max-width: 1140px;
-  margin: 0 auto;
+	max-width: 1140px;
+	margin: 0 auto;
 }
 
 /* Header */
 .header-div {
-  background-image: url(../images/header_bg.png);
-
- 
-  height: 100vh;
-
-  background-size: 100% 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
+	background-image: url(../images/header_bg.png);
+	height: 100vh;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
 }
 
 /* Navbar */
-.navbar-mod li a{
-  font-size: 20px;
-  color: #fff !important;
-  padding: 50px !important;
-
+.navbar-mod li a {
+	font-size: 20px;
+	color: #fff !important;
+	padding: 30px 50px !important;
 }
 
-
-
-
-
-
-.demo-nav{
-  color: #fff;
-  font-size: 20px;
+.logo-white {
+	padding-left: 340px;
 }
-.demo-nav:hover{
-  color: #fff;
-  text-decoration: none;
+
+.demo-nav {
+	color: #fff;
+	font-size: 20px;
+	padding-right: 170px;
+}
+
+.demo-nav:hover {
+	color: #fff;
+	text-decoration: none;
 }
 /* Navbar ends */
 
@@ -53,86 +48,392 @@
 .header-heading {
 }
 
-
-.algoqa-round-img{
-  width: 230px;
-  height: auto;
+.algoqa-round-img {
+	width: 230px;
+	height: auto;
 }
 
-.header-content{
-  padding-left: 50px;
-}
-.header-content-main-div{
-  position: relative;
-  top: 29%;
+.header-content {
+	padding-left: 50px;
 }
 
-
-.header-btn-yellow img{
-  height: 85px;
+.header-content-main-div {
+	position: relative;
+	top: 42%;
 }
-.header-btn-blue img{
-  height: 85px;
+
+.header-btn-yellow img {
+	height: 85px;
+}
+
+.header-btn-blue img {
+	height: 85px;
 }
 /* Header ends*/
 
 .optimize *,
 .shorter *,
 .rapid * {
-  text-align: center;
+	text-align: center;
 }
 
-.optimize img, .shorter img, .rapid img{
-  display: block;
-    margin: 0 auto;
-
+.optimize img, .shorter img, .rapid img {
+	display: block;
+	margin: 0 auto;
 }
 
-.optimize-p-1, .shorter-p-1, .rapid-p-1{
-  font-weight: 700;
+.optimize-p-1, .shorter-p-1, .rapid-p-1 {
+	font-weight: 700;
 }
 
-.reimagine-main-div{
-  background-color: #059bd7;
-
+.reimagine-main-div {
+	background-color: #059bd7;
 }
+
 .reimagine-flow-img {
-  width: 516px;
-
-}
-.reimagine-text-div{
-  padding: 50px;
+	width: 516px;
 }
 
-
-.algoqa-works-image{
-  width: 350px;
+.reimagine-text-div {
+	padding: 50px;
 }
 
-
-.algoqa-works-main-div{
-  background-color: #F2FAFF;
+.algoqa-works-image {
+	width: 350px;
 }
 
-.algoqa-works-text-div{
-  padding: 50px;
+.algoqa-works-main-div {
+	background-color: #F2FAFF;
 }
 
-.test-authoring-main-div{
-  padding: 50px;
+.algoqa-works-text-div {
+	padding: 50px;
+}
+
+.test-authoring-main-div {
+	padding: 50px;
 }
 
 /* Card heading background color */
-.card-bg-blue{
-  background-color: #059BD7;
+.card-bg-blue {
+	background-color: #059BD7;
 }
 
-
-.algoqa-offer-main-div{
-  background: url(../images/algoqa_offer.png);
+.algoqa-offer-main-div {
+	background: url(../images/algoqa_offer.png);
+	background-repeat: no-repeat;
 }
 
 /* Card gradient black */
-.card-bg-gradient{
-  background: linear-gradient(to right,#004A63,#081D36);
+.card-bg-gradient {
+	background: linear-gradient(to right,#004A63,#081D36);
+}
+
+.traceability-p {
+	padding-bottom: 70px;
+}
+
+.alm-p, .pagespeed-p {
+	padding: 0px 10px 20px 10px;
+}
+
+.log-p {
+	padding-bottom: 45px;
+}
+
+.api-p {
+	padding: 0px 10px 70px 10px;
+}
+
+.cron-p {
+	padding: 0px 10px 45px 10px;
+}
+
+.test-cycles img {
+	margin-left: 60px;
+}
+
+.extent {
+}
+
+.end-to-end-main-div {
+	background-color: #F2FAFF;
+}
+
+.platforms-sub-div div img {
+	display: block;
+	margin: 0 auto;
+}
+
+.wide-spectrum-main-div {
+	background-color: #034E6C;
+}
+
+.wide-spectrum-main-div * {
+	color: white;
+}
+
+.book-demo {
+	display: block;
+	margin: 0 auto;
+}
+
+.algoqa-testing {
+	background: url(../images/algoqa_offer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bottom-nav {
+	background-color: #E1F3FA;
+}
+
+.demo-nav-blue {
+	color: #034E6C;
+	font-size: 20px;
+}
+
+.demo-nav-blue:hover {
+	color: #034E6C;
+	text-decoration: none;
+}
+
+.copyright-div {
+	background-color: #034E6C;
+}
+
+
+
+/* Media Query */
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+
+	.header-heading {
+		font-size: 37px;
+	}
+
+	.header-btn-blue img {
+		height: 78px;
+	}
+
+	.header-btn-yellow img {
+		height: 78px;
+	}
+
+	.logo-white {
+		padding-left: 200px;
+	}
+
+	.demo-nav {
+		padding-right: 135px;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	.header-heading {
+		font-size: 36px;
+	}
+
+	.header-btn-blue img {
+		height: 75px;
+	}
+
+	.header-btn-yellow img {
+		height: 75px;
+	}
+
+	.algoqa-round-img {
+		width: 207px;
+		height: auto;
+	}
+
+	.logo-white {
+		padding-left: 85px;
+	}
+
+	.demo-nav {
+		padding-right: 110px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 925px) {
+	.header-div {
+		background-size: auto;
+	}
+
+	.logo-white {
+		padding-left: 80px;
+	}
+
+	.header-content-main-div {
+		top: 30%;
+		margin-left: 50px;
+	}
+
+	.reimagine-flow-img {
+		width: 377px;
+	}
+
+	.traceability-p {
+		padding-bottom: 92px;
+	}
+
+	.log-p {
+		padding-bottom: 68px;
+	}
+
+	.cron-p {
+		padding: 0px 10px 92px 10px;
+	}
+
+	.test-cycles img {
+		margin-left: 0px;
+		width: 250px;
+	}
+
+	.extent img {
+		margin-left: 0px;
+		width: 250px;
+	}
+
+	.end-to-end-text-div p {
+		text-align: justify;
+	}
+
+	.wide-spectrum h1 {
+		padding: 0px 10px;
+	}
+
+	.logo-black-blue {
+		width: 130px;
+		margin: 8px 5px 0px 5px;
+	}
+
+	.bottom-nav div a {
+		margin-left: 5px !important;
+	}
+
+	.copyright-div-p-1 {
+		margin-left: 15px;
+	}
+
+	.copyright-div-p-2 {
+		margin-right: 15px;
+	}
+
+	.navbar-nav li {
+		margin-left: auto;
+	}
+
+	.navbar-nav li a {
+		padding: 20px 15px !important;
+	}
+
+	.demo-nav {
+		display: flex;
+		justify-content: flex-end;
+		padding-top: 15px;
+		padding-right: 17px;
+	}
+}
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+	.reimagine-flow-img {
+		max-width: 310px !important;
+	}
+
+	.logo-white {
+		padding-left: 0px;
+	}
+
+	.header-div {
+		height: auto;
+		background-size: auto;
+	}
+
+	.header-btn-blue img, .header-btn-yellow img {
+		height: 45px;
+		margin-bottom: 10px;
+	}
+
+	.algoqa-round-img {
+		width: 150px;
+		height: auto;
+		margin-top: 90px;
+		margin-left: 15px;
+	}
+
+	.navbar-nav li {
+		margin-left: auto;
+	}
+
+	.navbar-nav li a {
+		padding: 20px 15px !important;
+		background: #034E6C;
+		width: 160px;
+		margin-left: auto;
+	}
+
+	.demo-nav {
+		display: flex;
+		justify-content: flex-end;
+		padding-top: 15px;
+		padding-right: 62px;
+		background: #034E6C;
+		width: 160px;
+		margin-left: auto;
+	}
+
+	.test-scripts {
+		padding: 0px 8px;
+	}
+
+	.algoqa-offer-main-div div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.traceability-p, .log-p, .api-p, .cron-p {
+		padding-bottom: 15px;
+	}
+
+	.card {
+		margin-bottom: 10px;
+	}
+
+	.algoqa-offer-main-div h1 {
+		padding: 10px 0px !important;
+	}
+
+	.algoqa-offer-main-div {
+		padding: 0px 0px !important;
+	}
+
+	.extent {
+		margin-left: 60px;
+	}
+
+	.logo-black-blue {
+		margin-left: 100px;
+	}
+
+	.product, .solutions {
+		margin-left: 81px !important;
+	}
+
+	.demo-nav-blue {
+		margin: 20px auto 0 auto !important;
+	}
+
+	.copyright-div-p-1 {
+		margin: 0 auto;
+	}
+
+	.copyright-div-p-2 {
+		margin: 0 auto;
+		padding-bottom: 10px;
+	}
+
+	.algoqa-works-image {
+		width: 300px;
+	}
 }
