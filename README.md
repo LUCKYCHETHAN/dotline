@@ -1,3 +1,3 @@
 # dotline
 
-(View Code)[https://luckychethan.github.io/dotline/]
+[View Code](https://luckychethan.github.io/dotline/)
